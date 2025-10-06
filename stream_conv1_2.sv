@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05.10.2025 19:15:53
-// Design Name: 
-// Module Name: stream_conv1_2
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module stream_conv1_2 #(parameter DATA_WIDTH=64,TOTAL_SAMPLES=733824,DEPTH=4096,ACTIVE_SAMPLES=3276,IDLE_CYCLES=1172)(
 input clk,resetn,
@@ -102,7 +82,6 @@ if(!resetn) begin
 end
 else begin
     ps <= ns;
-    
     
     case(ps)
     START : begin
