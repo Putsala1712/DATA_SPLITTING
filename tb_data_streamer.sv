@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05.10.2025 22:18:18
-// Design Name: 
-// Module Name: tb_data_streamer
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module tb_data_streamer();
 parameter DATA_WIDTH=64,TOTAL_SAMPLES=733824,DEPTH=4096,ACTIVE_SAMPLES=3276,IDLE_CYCLES=1172;
